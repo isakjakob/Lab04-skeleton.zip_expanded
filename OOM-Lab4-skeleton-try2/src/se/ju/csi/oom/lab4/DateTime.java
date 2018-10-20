@@ -10,9 +10,10 @@ public class DateTime {
 	private int day;
 	private int hour;
 	private int minute;
+	private int second;
 	
 	public String toString() {
-		return String.format("%04d-%02d-%02d %02d:%02d", year, month, day, hour, minute);
+		return String.format("%04d-%02d-%02d %02d:%02d", year, month, day, hour, minute, seconds);
 	}
 	
 	public DateTime(int year, int month, int day, int hour, int minute, int second) {
